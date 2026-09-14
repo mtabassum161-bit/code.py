@@ -1,5 +1,3 @@
-# code.py
-
 #*My Python learning journey starts here — exploring the basics step by step, beginning with "if" statements and building stronger coding skills every day.*
 
 

@@ -1,3 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+print("1. Login")
+print("2. Exit")
+
+choice = int(input("Enter your choice: "))
+
+if choice == 1:
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+
+    if username == "admin" and password == "1234":
+        print("Login successful")
+
+    if username != "admin" or password != "1234":
+        print("Invalid username or password")
+
+if choice == 2:
+    print("Goodbye")
+
+
+
+
+
+
+
 print("1. Apple")
 print("2. Banana")
 print("3. Mango")

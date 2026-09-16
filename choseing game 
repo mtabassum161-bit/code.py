@@ -1,19 +1,10 @@
-
-
-
-
-
-
-
-
-
-
+#login page 
 print("1. Login")
 print("2. Exit")
 
-choice = int(input("Enter your choice: "))
+access = int(input("Enter your choice: "))
 
-if choice == 1:
+if access == 1:
     username = input("Enter username: ")
     password = input("Enter password: ")
 
@@ -23,12 +14,23 @@ if choice == 1:
     if username != "admin" or password != "1234":
         print("Invalid username or password")
 
-if choice == 2:
+if access == 2:
     print("Goodbye")
 
+print("1. Admin")
+print("2. User")
+print("3. Guest")
 
+choice = int(input("Enter your choice: "))
 
+if choice == 1:
+    print("Full access granted")
 
+if choice == 2:
+    print("Limited access granted")
+
+if choice == 3:
+    print("Read-only access granted")
 
 
 
@@ -46,3 +48,25 @@ if choice == 2:
 
 if choice == 3:
     print("You chose Mango")
+
+print("1. Add")
+print("2. Subtract")
+print("3. Multiply")
+print("4. Divide")
+
+choice = int(input("Enter your choice: "))
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if choice == 1:
+    print(num1 + num2)
+
+if choice == 2:
+    print(num1 - num2)
+
+if choice == 3:
+    print(num1 * num2)
+
+if choice == 4:
+    print(num1 / num2)

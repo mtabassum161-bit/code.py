@@ -1,3 +1,13 @@
+
+# chossing game 
+
+
+name = "Deepak"
+age = 20
+
+print("My name is", name)
+print("I am", age, "years old")
+
 #*My Python learning journey starts here — exploring the basics step by step, beginning with "if" statements and building stronger coding skills every day.*
 
 
@@ -9,4 +19,4 @@ else:
     print("You cannot vote yet")
 
 
-#chossing game 
+
